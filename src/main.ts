@@ -191,7 +191,7 @@ function render() {
         <header class="hero">
           <img class="hero-logo" src="/hero-logo.png" alt="Lunar" width="280" height="280" />
           <h1>Username Stock</h1>
-          <p class="hero-sub">Live inventory · last change ${formatUpdated(catalog.updated_at)}</p>
+          <p class="hero-sub">Live Inventory · last change ${formatUpdated(catalog.updated_at)}</p>
         </header>
 
         <section class="toolbar">
