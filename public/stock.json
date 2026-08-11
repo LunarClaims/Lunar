@@ -1,0 +1,61 @@
+{
+  "updated_at": "2026-08-11T12:52:46.489350Z",
+  "items": [
+    {
+      "username": "anxiety",
+      "status": "available",
+      "tier": "high",
+      "bin_cents": 15000,
+      "offer_cents": 0
+    },
+    {
+      "username": "entertainment",
+      "status": "available",
+      "tier": null,
+      "bin_cents": 15000,
+      "offer_cents": null
+    },
+    {
+      "username": "girl",
+      "status": "available",
+      "tier": null,
+      "bin_cents": 30000,
+      "offer_cents": null
+    },
+    {
+      "username": "kelp",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": 6000
+    },
+    {
+      "username": "lik",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": 2000,
+      "offer_cents": null
+    },
+    {
+      "username": "shen",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": 7000,
+      "offer_cents": null
+    },
+    {
+      "username": "sisi",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": 4000,
+      "offer_cents": null
+    },
+    {
+      "username": "wza",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": 1500,
+      "offer_cents": null
+    }
+  ]
+}
