@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T03:56:19.204667Z",
+  "updated_at": "2026-08-12T03:56:35.715642Z",
   "items": [
     {
       "username": "anxiety",
@@ -20,7 +20,7 @@
       "status": "available",
       "tier": null,
       "bin_cents": 30000,
-      "offer_cents": null
+      "offer_cents": 15000
     },
     {
       "username": "kelp",
