@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-11T14:06:05.486096Z",
+  "updated_at": "2026-08-12T03:56:19.204667Z",
   "items": [
     {
       "username": "anxiety",
       "status": "available",
       "tier": "high",
       "bin_cents": 15000,
-      "offer_cents": 0
+      "offer_cents": 6000
     },
     {
       "username": "entertainment",
