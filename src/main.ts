@@ -128,7 +128,7 @@ function renderCard(item: StockItem, index: number): string {
           <span class="price-value ${item.bin_cents != null && item.bin_cents > 0 ? 'accent' : 'muted'}">${formatUsd(item.bin_cents)}</span>
         </div>
         <div class="price-block">
-          <span class="price-label">${item.status === 'sold' ? 'Sold for' : 'Offer'}</span>
+          <span class="price-label">${item.status === 'sold' ? 'Sold for' : 'Current Offer'}</span>
           <span class="price-value ${item.offer_cents != null && item.offer_cents > 0 ? '' : 'muted'}">${formatUsd(item.offer_cents)}</span>
         </div>
       </div>
