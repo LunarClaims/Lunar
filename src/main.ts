@@ -80,6 +80,21 @@ function parsePriceInput(value: string): number | null {
   return Math.round(n * 100)
 }
 
+function compareItems(a: StockItem, b: StockItem): number {
+  const aSold = a.status === 'sold' ? 1 : 0
+  const bSold = b.status === 'sold' ? 1 : 0
+  if (aSold !== bSold) return aSold - bSold
+
+  if (sortBy === 'name') return a.username.localeCompare(b.username)
+  const pa = listPrice(a)
+  const pb = listPrice(b)
+  if (pa == null && pb == null) return a.username.localeCompare(b.username)
+  if (pa == null) return 1
+  if (pb == null) return -1
+  if (sortBy === 'price-desc') return pb - pa
+  return pa - pb
+}
+
 function filteredItems(items: StockItem[]): StockItem[] {
   const minCents = parsePriceInput(minPrice)
   const maxCents = parsePriceInput(maxPrice)
@@ -93,32 +108,29 @@ function filteredItems(items: StockItem[]): StockItem[] {
     return true
   })
 
-  result = [...result].sort((a, b) => {
-    if (sortBy === 'name') return a.username.localeCompare(b.username)
-    const pa = listPrice(a)
-    const pb = listPrice(b)
-    if (pa == null && pb == null) return a.username.localeCompare(b.username)
-    if (pa == null) return 1
-    if (pb == null) return -1
-    if (sortBy === 'price-desc') return pb - pa
-    return pa - pb
-  })
+  result = [...result].sort(compareItems)
 
   return result
 }
 
 function renderCard(item: StockItem, index: number): string {
+  const isSold = item.status === 'sold'
   const statusClass =
     item.status === 'available' ? 'badge-available' : item.status === 'sold' ? 'badge-sold' : 'badge-tier'
   const tierBadge = item.tier ? `<span class="badge badge-tier">${escapeHtml(item.tier)}</span>` : ''
-  const soldClass = item.status === 'sold' ? ' card-sold' : ''
+  const soldClass = isSold ? ' card-sold' : ''
+  const statusBadge =
+    !isSold && item.status
+      ? `<span class="badge ${statusClass}">${escapeHtml(statusLabel(item.status))}</span>`
+      : ''
 
   return `
     <article class="card${soldClass}" style="animation-delay: ${Math.min(index * 45, 360)}ms">
+      ${isSold ? '<div class="sold-banner" aria-label="Sold"><span class="sold-banner-text">Sold</span></div>' : ''}
       <div class="card-top">
         <span class="username">/${escapeHtml(item.username)}</span>
         <div class="badges">
-          <span class="badge ${statusClass}">${escapeHtml(statusLabel(item.status))}</span>
+          ${statusBadge}
           ${tierBadge}
         </div>
       </div>
