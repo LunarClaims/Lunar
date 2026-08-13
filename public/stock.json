@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-12T03:56:35.715642Z",
+  "updated_at": "2026-08-13T11:25:22.663006Z",
   "items": [
     {
       "username": "anxiety",
@@ -7,6 +7,13 @@
       "tier": "high",
       "bin_cents": 15000,
       "offer_cents": 6000
+    },
+    {
+      "username": "closable",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
     },
     {
       "username": "entertainment",
@@ -37,6 +44,13 @@
       "offer_cents": null
     },
     {
+      "username": "overlying",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
       "username": "shen",
       "status": "available",
       "tier": "normal",
@@ -48,6 +62,20 @@
       "status": "available",
       "tier": "normal",
       "bin_cents": 4000,
+      "offer_cents": null
+    },
+    {
+      "username": "sizably",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
+      "username": "thievish",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
       "offer_cents": null
     },
     {
