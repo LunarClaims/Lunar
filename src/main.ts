@@ -32,7 +32,7 @@ const catalog = {
 let statusFilter: StatusFilter = 'all'
 let minPrice = ''
 let maxPrice = ''
-let sortBy: 'name' | 'price-asc' | 'price-desc' = 'price-asc'
+let sortBy: 'name' | 'price-asc' | 'price-desc' = 'price-desc'
 
 function formatUsd(cents: number | null | undefined): string {
   if (cents == null || cents <= 0) return '—'
@@ -218,8 +218,8 @@ function render() {
               <div class="sort-wrap">
                 <label class="sort-label" for="sort-select">Sort</label>
                 <select id="sort-select" class="sort-select" data-sort>
-                  <option value="price-asc" ${sortBy === 'price-asc' ? 'selected' : ''}>Low → high</option>
                   <option value="price-desc" ${sortBy === 'price-desc' ? 'selected' : ''}>High → low</option>
+                  <option value="price-asc" ${sortBy === 'price-asc' ? 'selected' : ''}>Low → high</option>
                   <option value="name" ${sortBy === 'name' ? 'selected' : ''}>Name A–Z</option>
                 </select>
               </div>
@@ -281,7 +281,7 @@ function render() {
     statusFilter = 'all'
     minPrice = ''
     maxPrice = ''
-    sortBy = 'price-asc'
+    sortBy = 'price-desc'
     render()
   })
 }
