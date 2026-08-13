@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T11:45:25.157590Z",
+  "updated_at": "2026-08-13T11:50:28.614440Z",
   "items": [
     {
       "username": "anxiety",
@@ -87,6 +87,13 @@
     },
     {
       "username": "sizably",
+      "status": "available",
+      "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
+      "username": "squishier",
       "status": "available",
       "tier": "normal",
       "bin_cents": null,
