@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T11:44:54.915646Z",
+  "updated_at": "2026-08-13T11:45:25.053696Z",
   "items": [
     {
       "username": "anxiety",
@@ -51,6 +51,13 @@
       "offer_cents": null
     },
     {
+      "username": "perjurer",
+      "status": "available",
+      "tier": "ultra",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
       "username": "reoccupy",
       "status": "available",
       "tier": "normal",
@@ -89,6 +96,13 @@
       "username": "thievish",
       "status": "available",
       "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
+      "username": "unarmored",
+      "status": "available",
+      "tier": "ultra",
       "bin_cents": null,
       "offer_cents": null
     },
