@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T12:07:30.740095Z",
+  "updated_at": "2026-08-13T12:07:35.128843Z",
   "items": [
     {
       "username": "anxiety",
@@ -117,7 +117,7 @@
       "username": "thievish",
       "status": "available",
       "tier": "normal",
-      "bin_cents": null,
+      "bin_cents": 3000,
       "offer_cents": null
     },
     {
