@@ -160,7 +160,7 @@ function renderContact(): string {
           Telegram channel
         </div>
         <h2 class="contact-title">@${escapeHtml(CONTACT.telegramLabel.replace('@', ''))}</h2>
-        <p class="contact-copy">Message the channel with the username you want — we'll reply with availability and next steps.</p>
+        <p class="contact-copy">Join our channel, then message an admin with the username you want — we'll reply with availability and next steps.</p>
         <a class="contact-telegram" href="${CONTACT.telegramUrl}" target="_blank" rel="noopener noreferrer">
           <span class="telegram-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M9.78 14.52 9.4 18.1c.55 0 .79-.24 1.08-.52l2.59-2.48 5.37 3.93c.98.54 1.68.26 1.95-.9l3.52-16.5h.01c.31-1.45-.52-2.02-1.47-1.67L2.2 9.44c-1.42.55-1.4 1.34-.24 1.7l5.26 1.64 12.2-7.68c.57-.35 1.09-.16.66.2"/></svg>
