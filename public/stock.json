@@ -30,13 +30,6 @@
       "offer_cents": 15000
     },
     {
-      "username": "kelp",
-      "status": "available",
-      "tier": "normal",
-      "bin_cents": 6000,
-      "offer_cents": null
-    },
-    {
       "username": "lik",
       "status": "available",
       "tier": "normal",
