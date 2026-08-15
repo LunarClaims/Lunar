@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T03:59:37.642756Z",
+  "updated_at": "2026-08-15T11:27:17.400368Z",
   "items": [
     {
       "username": "anxiety",
@@ -68,7 +68,7 @@
       "username": "pleading",
       "status": "available",
       "tier": "high",
-      "bin_cents": null,
+      "bin_cents": 10000,
       "offer_cents": null
     },
     {
