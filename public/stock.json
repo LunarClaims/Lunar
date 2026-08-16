@@ -2,13 +2,6 @@
   "updated_at": "2026-08-16T06:40:07.062560Z",
   "items": [
     {
-      "username": "anxiety",
-      "status": "available",
-      "tier": "high",
-      "bin_cents": 15000,
-      "offer_cents": 6000
-    },
-    {
       "username": "closable",
       "status": "available",
       "tier": "normal",
