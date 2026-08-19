@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-08-16T06:40:07.062560Z",
+  "updated_at": "2026-08-19T01:20:36.185280Z",
   "items": [
+    {
+      "username": "atop",
+      "status": "available",
+      "tier": "ultra",
+      "bin_cents": null,
+      "offer_cents": null
+    },
     {
       "username": "closable",
       "status": "available",
