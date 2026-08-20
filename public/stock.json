@@ -86,13 +86,6 @@
       "offer_cents": null
     },
     {
-      "username": "pleading",
-      "status": "available",
-      "tier": "high",
-      "bin_cents": 3000,
-      "offer_cents": null
-    },
-    {
       "username": "postnasal",
       "status": "available",
       "tier": "ultra",
@@ -217,6 +210,13 @@
       "tier": null,
       "bin_cents": 5000,
       "offer_cents": 5000
+    },
+    {
+      "username": "pleading",
+      "status": "sold",
+      "tier": "high",
+      "bin_cents": 3000,
+      "offer_cents": null
     }
   ]
 }
