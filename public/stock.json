@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T12:47:14.093018Z",
+  "updated_at": "2026-08-21T12:47:20.063964Z",
   "items": [
     {
       "username": "atop",
@@ -166,7 +166,7 @@
       "username": "unenvied",
       "status": "available",
       "tier": "ultra",
-      "bin_cents": null,
+      "bin_cents": 500,
       "offer_cents": null
     },
     {
