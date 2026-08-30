@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T00:05:07.579535Z",
+  "updated_at": "2026-08-30T18:17:46.122978Z",
   "items": [
     {
       "username": "atop",
@@ -250,7 +250,7 @@
       "username": "wza",
       "status": "available",
       "tier": "normal",
-      "bin_cents": 1500,
+      "bin_cents": 600,
       "offer_cents": null
     },
     {
