@@ -247,13 +247,6 @@
       "offer_cents": null
     },
     {
-      "username": "wza",
-      "status": "available",
-      "tier": "normal",
-      "bin_cents": 600,
-      "offer_cents": null
-    },
-    {
       "username": "agua",
       "status": "sold",
       "tier": null,
@@ -266,6 +259,13 @@
       "tier": "high",
       "bin_cents": 3000,
       "offer_cents": 3000
+    },
+    {
+      "username": "wza",
+      "status": "sold",
+      "tier": "normal",
+      "bin_cents": 600,
+      "offer_cents": null
     }
   ]
 }
