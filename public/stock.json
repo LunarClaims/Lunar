@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T18:24:40.396791Z",
+  "updated_at": "2026-08-30T18:54:38.458168Z",
   "items": [
     {
       "username": "atop",
@@ -178,6 +178,13 @@
     },
     {
       "username": "trillionth",
+      "status": "available",
+      "tier": "ultra",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
+      "username": "unaligned",
       "status": "available",
       "tier": "ultra",
       "bin_cents": null,
