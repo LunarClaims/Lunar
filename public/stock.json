@@ -65,13 +65,6 @@
       "offer_cents": null
     },
     {
-      "username": "lik",
-      "status": "available",
-      "tier": "normal",
-      "bin_cents": 2000,
-      "offer_cents": null
-    },
-    {
       "username": "matchbox",
       "status": "available",
       "tier": "high",
@@ -259,6 +252,13 @@
       "tier": null,
       "bin_cents": 5000,
       "offer_cents": 5000
+    },
+    {
+      "username": "lik",
+      "status": "sold",
+      "tier": "normal",
+      "bin_cents": 2000,
+      "offer_cents": null
     },
     {
       "username": "pleading",
