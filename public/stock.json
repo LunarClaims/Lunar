@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T18:54:38.458168Z",
+  "updated_at": "2026-09-02T20:33:54.350234Z",
   "items": [
     {
       "username": "atop",
@@ -257,8 +257,8 @@
       "username": "lik",
       "status": "sold",
       "tier": "normal",
-      "bin_cents": 2000,
-      "offer_cents": null
+      "bin_cents": 1000,
+      "offer_cents": 1000
     },
     {
       "username": "pleading",
