@@ -233,13 +233,6 @@
       "offer_cents": null
     },
     {
-      "username": "unarmorded",
-      "status": "available",
-      "tier": "normal",
-      "bin_cents": 500,
-      "offer_cents": null
-    },
-    {
       "username": "unarmored",
       "status": "available",
       "tier": "ultra",
@@ -336,6 +329,13 @@
       "tier": "high",
       "bin_cents": 3000,
       "offer_cents": 3000
+    },
+    {
+      "username": "unarmorded",
+      "status": "sold",
+      "tier": "normal",
+      "bin_cents": 500,
+      "offer_cents": null
     },
     {
       "username": "wza",
