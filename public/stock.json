@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T17:07:53.639090Z",
+  "updated_at": "2026-09-09T17:07:59.347605Z",
   "items": [
     {
       "username": "atop",
@@ -12,7 +12,7 @@
       "username": "calculable",
       "status": "available",
       "tier": "ultra",
-      "bin_cents": null,
+      "bin_cents": 1500,
       "offer_cents": null
     },
     {
