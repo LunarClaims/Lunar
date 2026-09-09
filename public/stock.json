@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T18:15:39.265588Z",
+  "updated_at": "2026-09-09T18:16:03.977312Z",
   "items": [
     {
       "username": "atop",
@@ -33,7 +33,7 @@
       "username": "fracture",
       "status": "available",
       "tier": "normal",
-      "bin_cents": 7500,
+      "bin_cents": 6000,
       "offer_cents": null
     },
     {
