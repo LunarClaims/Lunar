@@ -296,13 +296,6 @@
       "offer_cents": null
     },
     {
-      "username": "vampire",
-      "status": "available",
-      "tier": "high",
-      "bin_cents": 30000,
-      "offer_cents": 20000
-    },
-    {
       "username": "weighted",
       "status": "available",
       "tier": "ultra",
