@@ -37,13 +37,6 @@
       "offer_cents": null
     },
     {
-      "username": "fp2",
-      "status": "available",
-      "tier": "ultra",
-      "bin_cents": null,
-      "offer_cents": null
-    },
-    {
       "username": "fracture",
       "status": "available",
       "tier": "normal",
@@ -329,6 +322,13 @@
       "tier": null,
       "bin_cents": 5000,
       "offer_cents": 5000
+    },
+    {
+      "username": "fp2",
+      "status": "sold",
+      "tier": "ultra",
+      "bin_cents": null,
+      "offer_cents": null
     },
     {
       "username": "lik",
