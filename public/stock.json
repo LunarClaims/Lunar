@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T03:54:26.569234Z",
+  "updated_at": "2026-09-17T17:15:50.473727Z",
   "items": [
     {
       "username": "atop",
@@ -26,7 +26,7 @@
       "username": "crinkle",
       "status": "available",
       "tier": "ultra",
-      "bin_cents": null,
+      "bin_cents": 2000,
       "offer_cents": null
     },
     {
