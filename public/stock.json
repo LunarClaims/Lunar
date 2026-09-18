@@ -1,10 +1,17 @@
 {
-  "updated_at": "2026-09-17T20:07:34.011876Z",
+  "updated_at": "2026-09-18T05:18:18.246741Z",
   "items": [
     {
       "username": "0kw",
       "status": "available",
       "tier": "normal",
+      "bin_cents": null,
+      "offer_cents": null
+    },
+    {
+      "username": "20o",
+      "status": "available",
+      "tier": "ultra",
       "bin_cents": null,
       "offer_cents": null
     },
