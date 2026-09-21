@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T00:37:13.195029Z",
+  "updated_at": "2026-09-21T00:37:17.631479Z",
   "items": [
     {
       "username": "0kw",
@@ -47,7 +47,7 @@
       "username": "entertainment",
       "status": "available",
       "tier": null,
-      "bin_cents": 15000,
+      "bin_cents": 10000,
       "offer_cents": null
     },
     {
