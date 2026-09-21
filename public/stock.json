@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T00:35:49.759004Z",
+  "updated_at": "2026-09-21T00:37:13.195029Z",
   "items": [
     {
       "username": "0kw",
@@ -68,7 +68,7 @@
       "username": "girl",
       "status": "available",
       "tier": null,
-      "bin_cents": 30000,
+      "bin_cents": 20000,
       "offer_cents": 15000
     },
     {
