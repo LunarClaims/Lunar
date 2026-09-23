@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T17:03:30.742338Z",
+  "updated_at": "2026-09-23T17:05:15.098486Z",
   "items": [
     {
       "username": "0kw",
@@ -173,7 +173,7 @@
       "username": "qno",
       "status": "available",
       "tier": "ultra",
-      "bin_cents": null,
+      "bin_cents": 1000,
       "offer_cents": null
     },
     {
