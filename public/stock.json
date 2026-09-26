@@ -170,13 +170,6 @@
       "offer_cents": null
     },
     {
-      "username": "qno",
-      "status": "available",
-      "tier": "ultra",
-      "bin_cents": 1000,
-      "offer_cents": null
-    },
-    {
       "username": "renewably",
       "status": "available",
       "tier": "high",
@@ -371,6 +364,13 @@
       "tier": "high",
       "bin_cents": 3000,
       "offer_cents": 3000
+    },
+    {
+      "username": "qno",
+      "status": "sold",
+      "tier": "ultra",
+      "bin_cents": 1000,
+      "offer_cents": null
     },
     {
       "username": "unarmorded",
