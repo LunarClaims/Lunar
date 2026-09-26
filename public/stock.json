@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T17:05:15.098486Z",
+  "updated_at": "2026-09-26T05:30:00.839574Z",
   "items": [
     {
       "username": "0kw",
@@ -13,6 +13,13 @@
       "status": "available",
       "tier": "ultra",
       "bin_cents": 1000,
+      "offer_cents": null
+    },
+    {
+      "username": "7wd",
+      "status": "available",
+      "tier": "ultra",
+      "bin_cents": null,
       "offer_cents": null
     },
     {
