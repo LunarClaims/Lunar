@@ -79,13 +79,6 @@
       "offer_cents": null
     },
     {
-      "username": "girl",
-      "status": "available",
-      "tier": null,
-      "bin_cents": 20000,
-      "offer_cents": 15000
-    },
-    {
       "username": "heftiness",
       "status": "available",
       "tier": "high",
@@ -357,6 +350,13 @@
       "tier": "ultra",
       "bin_cents": null,
       "offer_cents": 600
+    },
+    {
+      "username": "girl",
+      "status": "sold",
+      "tier": null,
+      "bin_cents": 20000,
+      "offer_cents": 15000
     },
     {
       "username": "lik",
