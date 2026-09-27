@@ -51,13 +51,6 @@
       "offer_cents": null
     },
     {
-      "username": "eee",
-      "status": "available",
-      "tier": "high",
-      "bin_cents": null,
-      "offer_cents": null
-    },
-    {
       "username": "entertainment",
       "status": "available",
       "tier": null,
@@ -343,6 +336,13 @@
       "tier": null,
       "bin_cents": 5000,
       "offer_cents": 5000
+    },
+    {
+      "username": "eee",
+      "status": "sold",
+      "tier": "high",
+      "bin_cents": null,
+      "offer_cents": null
     },
     {
       "username": "fp2",
