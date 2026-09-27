@@ -361,7 +361,7 @@
     {
       "username": "girl",
       "status": "sold",
-      "tier": null,
+      "tier": "ultra",
       "bin_cents": 20000,
       "offer_cents": 15000
     },
